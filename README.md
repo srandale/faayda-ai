@@ -1,4 +1,3 @@
-```python?code_reference&code_event_index=2
 content = """# 📈 Options Alpha Assistant
 
 An AI-powered quantitative options trading assistant built with Streamlit, Groq (Llama 3), and `yfinance`. Designed specifically for executing the **Wheel Strategy** (Cash-Secured Puts and Covered Calls), this tool scans historical support/resistance levels, fetches live options premiums, and calculates automated profit-taking exits.
@@ -54,9 +53,6 @@ An AI-powered quantitative options trading assistant built with Streamlit, Groq 
 
 ## ⚠️ Disclaimer
 This tool is for informational and educational purposes only. Options trading involves significant risk. Always verify premiums and strike prices in your live brokerage account before executing trades.
-"""
-
-with open("README.md", "w") as f:
     f.write(content)
 
 
