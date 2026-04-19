@@ -1,0 +1,8 @@
+streamlit
+groq
+python-dotenv
+yfinance
+lxml
+html5lib
+beautifulsoup4
+tabulate
